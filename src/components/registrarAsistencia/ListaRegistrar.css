@@ -1,0 +1,73 @@
+/* Responsiveness para la tabla de estudiantes */
+
+.list-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 12px;
+  }
+
+@media (max-width: 768px) {
+    .students-table, .students-table thead, .students-table tbody, .students-table th, .students-table td, .students-table tr {
+        display: block;
+    }
+
+    .students-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .students-table tr {
+        margin: 0 0 1rem 0;
+    }
+
+    .students-table td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    .students-table td:before {
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .students-table td:nth-of-type(1):before { content: "Código"; }
+    .students-table td:nth-of-type(2):before { content: "Alumno"; }
+    .students-table td:nth-of-type(3):before { content: "Asistencia"; }
+    .students-table td:nth-of-type(4):before { content: "Faltante"; }
+    .students-table td:nth-of-type(5):before { content: "Tardanza"; }
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.students th, .students td {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+}
+
+.students th[scope="col"] {
+    text-align: left;
+}
+
+.students tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.students td {
+    text-align: center;
+}
