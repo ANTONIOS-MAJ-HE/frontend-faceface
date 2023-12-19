@@ -5,7 +5,7 @@ import AddSesion from './AddSesion';
 import HeadRegistrar from './HeadRegistrar';
 import ListaRegistrar from './ListaRegistrar';
 import './RegistrarAsis.css';
-import Navbar from '../Cursos/Navbar';
+import Navbar from '../cursos/Navbar';
 
 
 
