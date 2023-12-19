@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^1.6.2",
     "bootstrap": "^5.2.3",
-    "express": "^4.17.1", // Express ahora está incluido en las dependencias
+    "express": "^4.17.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
