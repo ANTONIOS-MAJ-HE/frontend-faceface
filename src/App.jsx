@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Registrar from './components/Registrar';
 import Perfil from './components/perfil/Perfil';
-import Cursos from './components/Cursos/Cursos';
+import Cursos from './components/cursos/Cursos';
 import RegistrarAsis from './components/registrarAsistencia/RegistrarAsis';
 import PrivateRoute from './PrivateRoute'; // Asegúrate de que esto esté correctamente importado
 import './App.css';
