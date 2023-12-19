@@ -1,6 +1,6 @@
 import React from 'react';
 import './Perfil.css';
-import Navbar from '../Cursos/Navbar';
+import Navbar from '../cursos/Navbar';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
